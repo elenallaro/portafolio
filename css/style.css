@@ -1,0 +1,67 @@
+.color1{
+    background-color: rgb(240, 229, 223);
+}
+.color2{
+    background-color: rgb(53, 79, 82);
+}
+.color3{
+    background-color: rgb(145, 164, 61);
+}
+.color4{
+    background-color: rgb(181, 131, 141);
+}
+.txcl1{
+    color:  rgb(240, 229, 223);
+}
+.txcl2{
+    color: rgb(53, 79, 82);
+}
+.saludo{
+    color: rgb(53, 79, 82);
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    padding-right: auto;
+    margin-bottom: 60px;
+}
+.boton-contacto{
+    color: rgb(240, 229, 223);
+    background-color: rgb(53, 79, 82);
+    border-color: rgb(33,79,82);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 70px;
+    
+}
+.web-dev{
+    color: rgb(53, 79, 82);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 200px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    
+}
+.bio{
+    color: rgb(53, 79, 82);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+.foto-biol{
+    margin-left: 120px;
+    padding: 10px;
+    background-color: rgb(145, 164, 61);
+}
+.img-wd{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgb(181,131,141);
+}
