@@ -16,6 +16,9 @@
 .txcl2{
     color: rgb(53, 79, 82);
 }
+
+/*HOJA 1*/
+
 .saludo{
     color: rgb(53, 79, 82);
     padding-top: 60px;
@@ -64,4 +67,52 @@
     margin-left: 20px;
     padding: 10px;
     background-color: rgb(181,131,141);
+}
+
+/* HOJA 2 */
+.titlesm{
+    padding: 10px;
+    margin: 100px auto 30px 100px;
+}
+.parsm{
+    padding: 10px 10px 230px 10px;
+    margin: 20px 70px 60px 100px;
+    text-align: justify;
+}
+.iconar{
+    margin: 130px 200px 70px 300px;
+}
+.iconlp{
+    margin: 30px 30px 70px 130px;
+}
+.icontz{
+    margin: 30px 200px 70px 300px;
+}
+/*HOJA 3*/
+.titleds{
+    padding: 10px;
+    margin: 100px 100px 30px auto;
+}
+.pards{
+    padding: 10px 10px 230px 10px;
+    margin: 20px 100px 60px 130px;
+    text-align: justify;
+}
+.iconcode{
+    padding: 10px;
+    margin:200px auto 30px 100px;
+}
+.icontm{
+padding: 10px;
+margin: 20px 70px 60px 300px;
+}
+/*HOJA 4*/
+.titlebio{
+    padding: 10px;
+    margin: 100px auto 30px 100px;
+}
+.parbio{
+    padding: 10px 10px 200px 10px;
+    margin: 20px 70px 60px 100px;
+    text-align: justify;
 }
