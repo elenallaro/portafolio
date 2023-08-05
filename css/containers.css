@@ -1,0 +1,26 @@
+/*HEADER*/
+.navtxt{
+color: rgb(53, 79, 82);;
+font-weight: 700;
+}
+.navtxt2{
+    color:  rgb(240, 229, 223);
+    font-weight: 700;
+}
+
+
+/*FOOTER*/
+.hearts1{
+    color: rgb(53, 79, 82);
+    padding: 5px;
+    margin: 5px;
+}
+.hearts2{
+    color: rgb(240, 229, 223);
+    padding: 5px;
+    margin: 5px;
+}
+
+.lg:hover{
+    transform: scale(2);
+}

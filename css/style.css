@@ -21,7 +21,7 @@
 
 .saludo{
     color: rgb(53, 79, 82);
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 30px;
     padding-bottom: 60px;
     padding-right: auto;
@@ -46,9 +46,15 @@
     padding-right: 10px;
     margin-top: 200px;
     margin-right: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     
 }
+.txt{
+    font-weight: 600;
+    font-size: larger;
+}
+
+
 .bio{
     color: rgb(53, 79, 82);
     padding-top: 10px;
@@ -58,16 +64,44 @@
     margin-top: 50px;
 }
 .foto-biol{
-    margin-left: 120px;
+    /* margin-left: 120px;
+    padding: 10px; */
+    margin-left: auto;
     padding: 10px;
     background-color: rgb(145, 164, 61);
 }
 .img-wd{
-    margin-bottom: 50px;
-    margin-left: 20px;
+    /* margin-bottom: 50px;
+    margin-left: 20px; */
+    margin-bottom: auto;
+    margin-left: auto;
     padding: 10px;
     background-color: rgb(181,131,141);
 }
+
+.anim{
+    width: 375px;
+    height: auto;
+    margin: 5px;
+    transition: width, height 1s;
+}
+.anim:hover{
+    color: rgb(53, 79, 82);
+    width: 600px;
+}
+
+.anim2{
+    width: 400px;
+    height: auto;
+    margin: 5px;
+    transition: width, height 1s;
+}
+.anim2:hover{
+    color: rgb(53, 79, 82);
+    width: 600px;
+}
+
+
 
 /* HOJA 2 */
 .titlesm{
@@ -115,4 +149,16 @@ margin: 20px 70px 60px 300px;
     padding: 10px 10px 200px 10px;
     margin: 20px 70px 60px 100px;
     text-align: justify;
+}
+
+.titlecontacto{
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 40px 10px 40px;
+    color: rgb(33,79,82) ;
+    background-color: rgb(145, 164, 61);
+    border-color: rgb(145, 164, 61);
 }
