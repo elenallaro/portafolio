@@ -1,0 +1,138 @@
+.color1{
+    background-color: rgb(240, 229, 223);
+}
+.color2{
+    background-color: rgb(53, 79, 82);
+}
+.color3{
+    background-color: rgb(145, 164, 61);
+}
+.color4{
+    background-color: rgb(181, 131, 141);
+}
+.txcl1{
+    color:  rgb(240, 229, 223);
+}
+.txcl2{
+    color: rgb(53, 79, 82);
+}
+
+
+
+
+
+.contenedor{
+    gap: 20px;
+    display: grid;
+    background-color: rgb(240, 229, 223);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+
+    grid-template-areas: "header header"
+                            "main imgs"
+                            "footer footer";
+}
+.header{
+grid-area: header;
+}
+
+.main{
+    padding: 20px;
+    border-radius: 4px;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.saludo{
+    align-self: center;
+}
+.boton{
+    align-self:center;
+}
+.wdev{
+    align-self: flex-end;
+}
+
+.imgs{
+    padding: 20px;
+    border-radius: 4px;
+    grid-area: imgs;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.biotx{
+align-self: flex-start;
+}
+.imgBio{
+align-self: flex-end;
+}
+.imgWd{
+align-self: center;
+}
+
+.footer{
+
+    padding: 20px;
+    border-radius: 4px;
+    grid-area: footer;
+}
+
+
+
+.saludo{
+    color: rgb(53, 79, 82);
+}
+.boton-contacto{
+    color: rgb(240, 229, 223);
+    background-color: rgb(53, 79, 82);
+    border-color: rgb(33,79,82);
+    padding: 6px 35px 6px 35px;
+}
+.wdev{
+    color: rgb(53, 79, 82);
+    font-size: larger;
+    font-weight: 600;
+}
+.txt{
+    font-weight: 600;
+    font-size: larger;
+}
+
+
+.biotx{
+    color: rgb(53, 79, 82);
+    font-size: larger;
+    font-weight: 600;
+}
+.foto-biol{
+    padding: 10px;
+    background-color: rgb(145, 164, 61);
+    width: 350px;
+}
+.img-wd{
+    padding: 10px;
+    background-color: rgb(181,131,141);
+    width: 350px;
+}
+
+.anim{
+    margin: 5px;
+    transition: width, height 1s;
+}
+.anim:hover{
+    color: rgb(53, 79, 82);
+    width: 425px;
+}
+
+.anim2{
+    height: auto;
+    margin: 5px;
+    transition: width, height 1s;
+}
+.anim2:hover{
+    color: rgb(53, 79, 82);
+    width: 425px;
+}

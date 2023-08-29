@@ -64,7 +64,7 @@ class NavBar extends HTMLElement {
                     <ul class="nav nav-pills">
                         <li class="nav-item"><a href="../index.html" class="nav-link navtxt2">Inicio</a></li>
                         <li class="nav-item"><a href="../pages/about.html" class="nav-link navtxt2">Sobre mí</a></li>
-                        <li class="nav-item"><a href="../pages/prog.html" class="nav-link navtxt2">Programadora</a></li>
+                        <li class="nav-item"><a href="../pages/prog.html" class="nav-link navtxt2">Desarrolladora web</a></li>
                         <li class="nav-item"><a href="../pages/biol.html" class="nav-link navtxt2">Bióloga</a></li>
                         <li class="nav-item"><a href="../pages/contact.html" class="nav-link navtxt2">Contacto</a></li>
                     </ul>

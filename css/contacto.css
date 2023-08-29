@@ -1,6 +1,6 @@
 .mod{
-    background-color: rgb(53, 79, 82);
-    border-color: rgb(33,79,82);
+    background-color: rgb(181, 131, 141);
+    border-color: rgb(181, 131, 141);
     color: rgb(240, 229, 223);
 }
 
@@ -15,5 +15,12 @@
     color: rgb(33,79,82) ;
     background-color: rgb(145, 164, 61);
     border-color: rgb(145, 164, 61);
+    margin: 70px 40px 70px 40px;
+}
+.btn2{
+    padding: 10px 20px 10px 20px;
+    color: rgb(240, 229, 223) ;
+    background-color: rgb(33,79,82);
+    border-color: rgb(33,79,82);
     margin: 70px 40px 70px 40px;
 }
